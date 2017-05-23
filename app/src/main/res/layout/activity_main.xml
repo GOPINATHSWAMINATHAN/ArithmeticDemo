@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bad0e6"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#d20a4d"
+        android:layout_marginTop="50dp"
+        android:text="Arithmetic Operations"/>
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Enter the number"
+        />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="80dp"
+        />
+    <Button
+        android:id="@+id/process_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Square"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
