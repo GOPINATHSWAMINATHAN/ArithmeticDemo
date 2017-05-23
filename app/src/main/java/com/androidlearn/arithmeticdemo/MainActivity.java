@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 Integer b=a*a;
                 output.setText(b.toString());
             }
+            // welcome to android programming
         });
     }
 }
